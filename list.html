@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Selector</title>
+  <style>
+    /* Basic styling for input and list */
+    .container {
+      position: relative;
+      width: 200px;
+    }
+
+    .country-input {
+      width: 100%;
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    .country-list {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      max-height: 150px;
+      overflow-y: auto;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-top: none;
+      display: none;
+      z-index: 1;
+    }
+
+    .country-list li {
+      padding: 8px;
+      cursor: pointer;
+    }
+
+    .country-list li:hover {
+      background-color: #eaeaea;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <input type="text" id="countryInput" class="country-input" placeholder="Select a country">
+  <ul id="countryList" class="country-list">
+    <li>United States</li>
+    <li>Canada</li>
+    <li>United Kingdom</li>
+    <li>Australia</li>
+    <li>India</li>
+    <li>Germany</li>
+    <li>France</li>
+    <li>Japan</li>
+    <li>China</li>
+    <li>South Korea</li>
+    <!-- Add more countries as needed -->
+  </ul>
+</div>
+
+<script>
+  const countryInput = document.getElementById('countryInput');
+  const countryList = document.getElementById('countryList');
+
+  // Show the country list when input is focused
+  countryInput.addEventListener('focus', () => {
+    countryList.style.display = 'block';
+  });
+
+  // Hide the country list when clicking outside of it
+  document.addEventListener('click', (event) => {
+    if (!countryList.contains(event.target) && event.target !== countryInput) {
+      countryList.style.display = 'none';
+    }
+  });
+
+  // Set the input value when a country is clicked
+  countryList.addEventListener('click', (event) => {
+    if (event.target.tagName === 'LI') {
+      countryInput.value = event.target.textContent;
+      countryList.style.display = 'none';
+    }
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+[
+    {
+        "id":1,
+        "title":"Bluetooth Speaker",
+        "category":"Speaker",
+        "price":89.99,
+        "description":{
+            "descriptionOne":"Charging time: 10-14 hours",
+            "descriptionTwo":"Playback time: 10-24 hours",
+            "descriptionThree":"Battery capacity: 3000-5000 mAh",
+            "descriptionFour":"Frequency response: 20Hz-20kHz ",
+            "descriptionFive":"Water resistance rating: IPX4-IPX7"
+            },
+        "image_url":"Speaker-0001.jpg",
+        "rating":4.5,
+        "purchases":250000,
+        "brand":"samsung",
+        "lifeSpan": 5
+
+    },
+    {
+        "id":2,
+        "title":"Bluetooth speaker",
+        "category":"speaker",
+        "price":69.99,
+        "description":{
+            "descriptionOne":"Out power: 10-50W",
+            "descriptionTwo":"Playback time: 8-20 hours",
+            "descriptionThree":"Battery capacity: 2000-5000 mAh",
+            "descriptionFour":"Frequency response: 20Hz-20kHz ",
+            "descriptionFive":"Bluetooth version: 5.0 11"
+        },
+        "image_url":"Speaker-0002.jpg",
+        "rating":4.2,
+        "purchases":28000,
+        "brand":"huwawei",
+        "lifeSpan": 5
+    },
+    {
+        "id":3,
+        "title":"Fridge",
+        "category":"fridge",
+        "price":899.99,
+        "description":{
+            "descriptionOne":"Capacity: 300-500L",
+            "descriptionTwo":"Energy consumption: 100-200W",
+            "descriptionThree":"Number of shelves: 4-8",
+            "descriptionFour":"Door type: Double door",
+            "descriptionFive":"Color: White, Black, Silver"
+        
+        },
+        "image_url":"Fridge-0001.jpg",
+        "rating":4.8,
+        "purchases":10000,
+        "brand":"LG",
+        "lifeSpan": 15
+    },
+    {
+        "id":4,
+        "title":"Fridge",
+        "category":"fridge",
+        "price":999.99,
+        "description":{
+            "descriptionOne":"Capacity: 200-600L",
+            "descriptionTwo":"Noise level: 35-45 dB",
+            "descriptionThree":"Annual energy consumption: 100-300 kWh",
+            "descriptionFour":"Defrosting system: Frost-free/Manual",
+            "descriptionFive":"Number of shelves: 16"
+        },
+        "image_url":"Fridge-0002.jpg",
+        "rating": 4.9,
+        "purchases":32000,
+        "brand":"Electrolux",
+        "lifeSpan": 25
+    },
+    { "id":5,
+      "title":"Speaker",
+      "category":"speaker",
+      "price": 199.99,
+      "description":{
+        "descriptionOne":"Frequency response: 20Hz-20kHz",
+        "descriptionTwo":"Power consumption: 10W",
+        "descriptionThree":"Number of woofers: 2",
+        "descriptionFour":"Number of tweeters: 2",
+        "descriptionFive":"Playback time: No limit ( Uses AC )"
+
+      },
+      "image_url":"Speaker-0003.jpg",
+      "rating": 4.7,
+      "purchases": 15000,
+      "brand":"Sony",
+      "lifeSpan": 10
+    },
+    {
+        "id":6,
+        "title":"Speaker",
+        "category":"speaker",
+        "price": 299.99,
+        "description":{
+            "descriptionOne":"Frequency response: 28Hz-28kHz",
+            "descriptionTwo":"<span>Output power</span>: 8-30W",
+            "descriptionThree":"Water resistance rating: IPX4-IPX7",
+            "descriptionFour":"Bluetooth version: 5.0",
+            "descriptionFive":"Playback time: No limit ( Uses AC )"
+        },
+        "image_url":"Speaker-0004.jpg",
+        "rating": 4.8,
+        "purchases": 20000,
+        "brand":"samsung",
+        "lifeSpan":15
+
+    },
+    {
+        "id":7,
+        "title":"Iron",
+        "category":"iron",
+        "price":55.99,
+        "description":{
+            "descriptionOne":"Temperature control: 3 levels",
+            "descriptionTwo":"Steam function: Yes",
+            "descriptionThree":"Cord length: 2.5m",
+            "descriptionFour":"Weight: 1.5kg",
+            "descriptionFive":"Power consumption: 1200W"
+        },
+        "image_url":"iron-0001.jpg",
+        "rating":4.9,
+        "purchases":22000,
+        "brand":"phillips",
+        "lifeSpan":10
+    }
+
+]
